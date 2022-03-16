@@ -1,13 +1,28 @@
-.App {
-  text-align: center;
-}
-.App-header {
-  background-color: #282c34;
-  height: 20%;
+.app {
   display: flex;
+  height: 100%;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+main,
+header h1,
+footer p {
+  width: 100%;
+  text-align: center;
+}
+
+footer {
+  border-top: 1px solid #cccccc;
+  margin-top: 2rem;
+}
+footer p {
+  margin: 1.5rem auto;
+  color: #cccccc;
+}
+
+@media (min-width: 40rem) {
+  footer {
+    width: 95%;
+    margin-top: auto;
+  }
 }

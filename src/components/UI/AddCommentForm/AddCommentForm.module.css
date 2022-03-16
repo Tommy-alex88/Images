@@ -1,0 +1,36 @@
+.form {
+  display: grid;
+  grid-template-columns: 90%;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.form label,
+.form input,
+.form button {
+  height: 3rem;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  padding-left: 1rem;
+}
+
+::placeholder {
+  color: #cacaca;
+}
+.form button {
+  background-color: #3185d4;
+  border: 2px solid #3185d4;
+  color: #fdfdfd;
+}
+
+@media (min-width: 40rem) {
+  .form {
+    grid-template-columns: 100%;
+    margin-left: 2rem;
+    width: 55%;
+    justify-content: start;
+    gap: 0;
+    height: 35%;
+  }
+}

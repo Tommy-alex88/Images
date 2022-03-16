@@ -1,0 +1,18 @@
+.comments {
+  margin-bottom: 1rem;
+}
+
+.name,
+.date {
+  color: #808080;
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+.comments p,
+.date {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,20 @@
+.container img {
+  width: 90%;
+  display: block;
+  margin: 2rem auto;
+}
+
+@media (min-width: 40rem) {
+  .container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  .container img {
+    width: 100%;
+    display: block;
+    margin: 0;
+  }
+}
